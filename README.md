@@ -1,25 +1,47 @@
-# 🎈 Blank app template
+<img width="1680" height="777" alt="image" src="https://github.com/user-attachments/assets/ec386e65-4eb1-4c41-8149-94808e5cc7e0" /># 🤖 AI Second Chance
 
-A simple Streamlit app template for you to modify!
+AI Second Chance is an AI-powered platform that helps people turn rejection into their next opportunity.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
+## 📑 Table of Contents
 
-### How to run it on your own machine
+- [Problem Statement](#problem-statement)
+- [Solution](#solution)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [How to Run](#how-to-run)
+- [Future Scope](#future-scope)
 
-Prerequisite: install `uv` if you don't already have it.
+## 🚨 Problem Statement
 
-```
-$ curl -LsSf https://astral.sh/uv/install.sh | sh
-```
+People face rejections in jobs, loans, scholarships, college applications, and business funding. Many people do not understand why they were rejected or what they should do next.
 
-1. Sync the dependencies
+## 💡 Solution
 
-   ```
-   $ uv sync
-   ```
+AI Second Chance analyzes uploaded documents and provides possible rejection reasons, improvement suggestions, career guidance, job opportunities, upskilling paths, and business suggestions.
 
-2. Run the app
+## ✨ Features
 
-   ```
-   $ uv run streamlit run streamlit_app.py
-   ```
+- 📄 Upload PDF, image, or text documents
+- 🤖 AI-based document analysis
+- 💼 Career recommendations
+- 📚 Skill improvement suggestions
+- 💰 Business opportunity suggestions
+- 📊 Application analysis
+- 👤 User profile and document history
+
+## 🛠️ Technologies Used
+
+- Python
+- Streamlit
+- Llama LLM
+- SQLite
+- PyPDF2
+- OCR
+- FastAPI
+
+## ▶️ How to Run
+
+```bash
+uv venv
+uv pip install -r requirements.txt
+streamlit run app.py
